@@ -11,12 +11,16 @@ package th.ac.kmitl.science.comsci.example.models;
  */
 public class MappingProvinceNameToProvinceId {
     
-    private int provinceId;
+    
     
     public int mappingProvinceNameToProvinceId(String provinceName){
         
+		private int provinceId;
+
         switch(provinceName){
+
             case "Bangkok" : provinceId = 10;
+
             default : provinceId = 0;
         }
         
