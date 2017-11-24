@@ -11,11 +11,9 @@ package th.ac.kmitl.science.comsci.example.models;
  */
 public class MappingProvinceNameToProvinceId {
     
-    
-    
     public int mappingProvinceNameToProvinceId(String provinceName){
         
-		private int provinceId;
+	private int provinceId;
 
         switch(provinceName){
 
